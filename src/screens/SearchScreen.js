@@ -19,8 +19,8 @@ const SearchScreen = () => {
     <View>
       <SearchBar
         term={term}
-        onTermSubmit={setTerm}
-        onTermChange={() => searchApi(term)}
+        onTermChange={setTerm}
+        onTermSubmit={() => searchApi(term)}
       />
       {errorMessage ? <Text>{errorMessage}</Text> : null}
       <Text>we have found: {results.length}</Text>
