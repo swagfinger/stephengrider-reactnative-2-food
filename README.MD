@@ -17,8 +17,10 @@ npx create-expo-app food
 - yelp api
   https://www.yelp.com/fusion
 
-- API urls - https://www.yelp.com/developers/documentation/v3/business
-- https://www.yelp.com/developers/documentation/v3/business_search
+- API urls Business Endpoints - https://www.yelp.com/developers/documentation/v3/business
+
+  - GET https://api.yelp.com/v3/businesses/search
+  - GET https://api.yelp.com/v3/businesses/{id}
 
 ## React Navigation
 
